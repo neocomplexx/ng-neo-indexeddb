@@ -1,3 +1,8 @@
+/**
+ * @author Sebastian Larrieu
+ * @email slarrieu@neocomplexx.com
+ * @create date 2018-07-19 08:33:36
+*/
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 

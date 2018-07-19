@@ -56,7 +56,7 @@ export class NgxIDB {
       request = objectStore.get(key);
       request.onsuccess = function (event: Event) {
         resolve((<any>event.target).result);
-      }
+      };
     });
   }
 

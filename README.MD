@@ -1,7 +1,5 @@
 # ngx-neo-indexeddb
 
-==============
-
 ngx-neo-indexeddb is a pure Angular >= 2 working version of angular2-indexeddb <https://github.com/gilf/angular2-indexeddb>.
 It exposes very simple promises API to enable the usage of IndexedDB without most of it plumbing.
 
