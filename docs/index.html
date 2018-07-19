@@ -1,0 +1,463 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ngx-neo-indexeddb</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	      <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">ngx-neo-indexeddb</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+            <nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="index.html" data-type="index-link">ngx-neo-indexeddb</a>
+        </li>
+
+        <li class="divider"></li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="index.html"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                    <li class="link">
+                        <a 
+                            
+                             href="overview.html" 
+                             href="overview.html" 
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-th"></span>Overview
+                        </a>
+                    </li>
+                    <li class="link">
+                      <a href="index.html" data-type="chapter-link"><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter modules">
+            <a data-type="chapter-link" href="modules.html">
+                <div class="menu-toggler linked" data-toggle="collapse"
+                        data-target="#xs-modules-links"
+                >
+                    <span class="fa fa-fw fa-archive"></span>
+                    <span class="link-name">Modules</span>
+                    <span class="fa fa-angle-down"></span>
+                </div>
+            </a>
+            <ul class="links collapse"
+                    id="xs-modules-links"
+                >
+                    <li class="link">
+                        <a href="modules/AppModule.html" data-type="entity-link">AppModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-AppModule-38b0f129cc593b4eb32380c22941c75a"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-AppModule-38b0f129cc593b4eb32380c22941c75a"
+                                    >
+                                        <li class="link">
+                                            <a href="components/AppComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/NgxNeoIndexedDbModule.html" data-type="entity-link">NgxNeoIndexedDbModule</a>
+                    </li>
+            </ul>
+        </li>
+
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-classes-links"
+                >
+                <span class="fa fa-fw fa-file-code-o"></span>
+                <span>Classes</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-classes-links"
+                >
+                    <li class="link">
+                        <a href="classes/DbWrapper.html" data-type="entity-link">DbWrapper</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/NgxIDB.html" data-type="entity-link">NgxIDB</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Utils.html" data-type="entity-link">Utils</a>
+                    </li>
+            </ul>
+        </li>
+
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-interfaces-links"
+                >
+                <span class="fa fa-fw fa-info"></span>
+                <span>Interfaces</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-interfaces-links"
+                >
+                    <li class="link">
+                        <a href="interfaces/IndexDetails.html" data-type="entity-link">IndexDetails</a>
+                    </li>
+            </ul>
+        </li>
+
+
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="coverage.html"><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+        </li>
+
+
+    </ul>
+
+</nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="index.html" data-type="index-link">ngx-neo-indexeddb</a>
+        </li>
+
+        <li class="divider"></li>
+
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="index.html"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                    <li class="link">
+                        <a 
+                            
+                             href="overview.html" 
+                             href="overview.html" 
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-th"></span>Overview
+                        </a>
+                    </li>
+                    <li class="link">
+                      <a href="index.html" data-type="chapter-link"><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter modules">
+            <a data-type="chapter-link" href="modules.html">
+                <div class="menu-toggler linked" data-toggle="collapse"
+                        data-target="#modules-links"
+                >
+                    <span class="fa fa-fw fa-archive"></span>
+                    <span class="link-name">Modules</span>
+                    <span class="fa fa-angle-down"></span>
+                </div>
+            </a>
+            <ul class="links collapse"
+                    id="modules-links"
+>
+                    <li class="link">
+                        <a href="modules/AppModule.html" data-type="entity-link">AppModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-AppModule-38b0f129cc593b4eb32380c22941c75a"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-AppModule-38b0f129cc593b4eb32380c22941c75a"
+>
+                                        <li class="link">
+                                            <a href="components/AppComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+                    <li class="link">
+                        <a href="modules/NgxNeoIndexedDbModule.html" data-type="entity-link">NgxNeoIndexedDbModule</a>
+                    </li>
+            </ul>
+        </li>
+
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#classes-links"
+>
+                <span class="fa fa-fw fa-file-code-o"></span>
+                <span>Classes</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="classes-links"
+>
+                    <li class="link">
+                        <a href="classes/DbWrapper.html" data-type="entity-link">DbWrapper</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/NgxIDB.html" data-type="entity-link">NgxIDB</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/Utils.html" data-type="entity-link">Utils</a>
+                    </li>
+            </ul>
+        </li>
+
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#interfaces-links"
+>
+                <span class="fa fa-fw fa-info"></span>
+                <span>Interfaces</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="interfaces-links"
+>
+                    <li class="link">
+                        <a href="interfaces/IndexDetails.html" data-type="entity-link">IndexDetails</a>
+                    </li>
+            </ul>
+        </li>
+
+
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="coverage.html"><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+        </li>
+
+
+    </ul>
+
+</nav>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content getting-started">
+                   <div class="content-data">
+
+<h1 id="ngx-neo-indexeddb">ngx-neo-indexeddb</h1>
+<p>==============</p>
+<p>ngx-neo-indexeddb is a pure Angular &gt;= 2 working version of angular2-indexeddb <a href="https://github.com/gilf/angular2-indexeddb">https://github.com/gilf/angular2-indexeddb</a>.
+It exposes very simple promises API to enable the usage of IndexedDB without most of it plumbing.</p>
+<h2 id="installation">Installation</h2>
+<p>To install this library, run:</p>
+<div><pre class="line-numbers"><code class="language-bash">$ npm install ngx-neo-indexeddb --save</code></pre></div><h2 id="usage">Usage</h2>
+<p>Then, in any angular component or service import library</p>
+<div><pre class="line-numbers"><code class="language-typescript">import { NgxIDB } from &#39;ngx-neo-indexeddb&#39;;</code></pre></div><p>and use it.</p>
+<h3 id="ngxidb-class">NgxIDB Class</h3>
+<p>First instantiate the class as follows:</p>
+<div><pre class="line-numbers"><code class="language-typescript">private db: NgxIDB;
+
+constructor() {
+  this.db = new NgxIDB(&#39;myDb&#39;, 1);
+}</code></pre></div><p>The first argument is the name of your database and the second is the database version.
+If you forget the version you the service will default to version 1.</p>
+<p>Use the APIs that the NgxIDB service exposes to use indexeddb.
+In the API the following functions:</p>
+<ul>
+<li>openDatabase(version, createCallback): opens the database for usage and update it&#39;s objectStore/s.
+The first parameter is the version to upgrade the database and the second one is an optional callback that will handle the creation of objectStores for that version if needed.
+<strong>openDatabase</strong> returns a promise that is resolved when the database is open or updated or rejected if an error occurred.</li>
+</ul>
+<p>Usage example:</p>
+<div><pre class="line-numbers"><code class="language-js">db.openDatabase(1, (evt) =&gt; {
+    let objectStore = evt.currentTarget.result.createObjectStore(
+        &#39;people&#39;, { keyPath: &quot;id&quot;, autoIncrement: true });
+
+    objectStore.createIndex(&quot;name&quot;, &quot;name&quot;, { unique: false });
+    objectStore.createIndex(&quot;email&quot;, &quot;email&quot;, { unique: true });
+});</code></pre></div><ul>
+<li>getByKey(storeName, key): returns the object that is stored in the objectStore by its key.
+The first parameter is the store name to query and the second one is the object&#39;s key.
+<strong>getByKey</strong> returns a promise that is resolved when we have the object or rejected if an error occurred.</li>
+</ul>
+<p>Usage example:</p>
+<div><pre class="line-numbers"><code class="language-js">db.getByKey(&#39;people&#39;, 1).then((person) =&gt; {
+    console.log(person);
+}, (error) =&gt; {
+    console.log(error);
+});</code></pre></div><ul>
+<li>getAll(storeName, keyRange, indexDetails): returns an array of all the items in the given objectStore.
+The first parameter is the store name to query.
+The second parameter is an optional IDBKeyRange object.
+The third parameter is an index details which must include index name and an optional order parameter.
+<strong>getAll</strong> returns a promise that is resolved when we have the array of items or rejected if an error occurred.</li>
+</ul>
+<p>Usage example:</p>
+<div><pre class="line-numbers"><code class="language-js">db.getAll(&#39;people&#39;).then((people) =&gt; {
+    console.log(people);
+}, (error) =&gt; {
+    console.log(error);
+});</code></pre></div><ul>
+<li>getByIndex(storeName, indexName, key): returns an stored item using an objectStore&#39;s index.
+The first parameter is the store name to query, the second parameter is the index and third parameter is the item to query.
+<strong>getByIndex</strong> returns a promise that is resolved when the item successfully returned or rejected if an error occurred.</li>
+</ul>
+<p>Usage example:</p>
+<div><pre class="line-numbers"><code class="language-js">db.getByIndex(&#39;people&#39;, &#39;name&#39;, &#39;Dave&#39;).then((person) =&gt; {
+    console.log(person);
+}, (error) =&gt; {
+    console.log(error);
+});</code></pre></div><ul>
+<li>add(storeName, value, key): Adds to the given objectStore the key and value pair.
+The first parameter is the store name to modify, the second parameter is the value and the third parameter is the key (if not auto-generated).
+<strong>add</strong> returns a promise that is resolved when the value was added or rejected if an error occurred.</li>
+</ul>
+<p>Usage example (add without a key):</p>
+<div><pre class="line-numbers"><code class="language-js">db.add(&#39;people&#39;, { name: &#39;name&#39;, email: &#39;email&#39; }).then(() =&gt; {
+    // Do something after the value was added
+}, (error) =&gt; {
+    console.log(error);
+});</code></pre></div><p>In the previous example I&#39;m using undefined as the key because the key is configured in the objectStore as auto-generated.</p>
+<ul>
+<li>update(storeName, value, key?): Updates the given value in the objectStore.
+The first parameter is the store name to modify, the second parameter is the value to update and the third parameter is the key (if there is no key don&#39;t provide it).
+<strong>update</strong> returns a promise that is resolved when the value was updated or rejected if an error occurred.</li>
+</ul>
+<p>Usage example (update without a key):</p>
+<div><pre class="line-numbers"><code class="language-js">db.update(&#39;people&#39;, { id: 3, name: &#39;name&#39;, email: &#39;email&#39; }).then(() =&gt; {
+    // Do something after update
+}, (error) =&gt; {
+    console.log(error);
+});</code></pre></div><ul>
+<li>delete(storeName, key): deletes the object that correspond with the key from the objectStore.
+The first parameter is the store name to modify and the second parameter is the key to delete.
+<strong>delete</strong> returns a promise that is resolved when the value was deleted or rejected if an error occurred.</li>
+</ul>
+<p>Usage example:</p>
+<div><pre class="line-numbers"><code class="language-js">db.delete(&#39;people&#39;, 3).then(() =&gt; {
+    // Do something after delete
+}, (error) =&gt; {
+    console.log(error);
+});</code></pre></div><ul>
+<li>openCursor(storeName, cursorCallback, keyRange): opens an objectStore cursor to enable iterating on the objectStore.
+The first parameter is the store name, the second parameter is a callback function to run when the cursor succeeds to be opened and the third parameter is optional IDBKeyRange object.
+<strong>openCursor</strong> returns a promise that is resolved when the cursor finishes running or rejected if an error occurred.</li>
+</ul>
+<p>Usage example:</p>
+<div><pre class="line-numbers"><code class="language-js">db.openCursor(&#39;people&#39;, (evt) =&gt; {
+    var cursor = (&lt;any&gt;evt.target).result;
+    if(cursor) {
+        console.log(cursor.value);
+        cursor.continue();
+    } else {
+        console.log(&#39;Entries all displayed.&#39;);
+    }
+}, IDBKeyRange.bound(&quot;A&quot;, &quot;F&quot;));
+</code></pre></div><ul>
+<li>clear(storeName): clears all the data in an objectStore.
+The first parameter is the store name to clear.
+<strong>clear</strong> returns a promise that is resolved when the objectStore was cleared or rejected if an error occurred.</li>
+</ul>
+<p>Usage example:</p>
+<div><pre class="line-numbers"><code class="language-js">db.clear(&#39;people&#39;).then(() =&gt; {
+    // Do something after clear
+}, (error) =&gt; {
+    console.log(error);
+});
+</code></pre></div><h2 id="license">License</h2>
+<p>Released under the terms of the <a href="LICENSE">MIT License</a>.</p>
+<h2 id="license">License</h2>
+<p>MIT © <a href="mailto:info@neocomplexx.com">Neo Complexx Group S.A</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+        <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 0;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'getting-started';
+            var COMPODOC_CURRENT_PAGE_URL = 'index.html';
+        </script>
+
+       <script src="./js/search/search.js"></script>
+       <script src="./js/search/lunr.min.js"></script>
+       <script src="./js/search/search-lunr.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+       <script src="./js/search/search_index.js"></script>
+
+
+    </body>
+</html>

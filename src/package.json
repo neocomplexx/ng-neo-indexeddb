@@ -1,0 +1,28 @@
+{
+  "name": "ngx-neo-indexeddb",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neocomplexx/ngx-neo-indexeddb"
+  },
+  "author": {
+    "name": "Neo Complexx Group S.A",
+    "email": "info@neocomplexx.com"
+  },
+  "keywords": [
+    "angular", "indexedDb", "local storage"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neocomplexx/ngx-neo-indexeddb/issues"
+  },
+  "main": "ngx-neo-indexeddb.umd.js",
+  "module": "ngx-neo-indexeddb.js",
+  "jsnext:main": "ngx-neo-indexeddb.js",
+  "typings": "ngx-neo-indexeddb.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
